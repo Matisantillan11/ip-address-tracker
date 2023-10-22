@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     @apply bg-primary-white;
+    z-index: 9999;
 }
 
 @media screen and (min-width: 1024px) {

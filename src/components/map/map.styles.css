@@ -1,5 +1,15 @@
 .map_container{
     width: 100vw;
     height: 60vh;
+    
     @apply bg-primary-whiteBG;
+}
+
+.leaflet-container{
+    height: 100vh;
+    z-index: 999;
+}
+
+.leaflet-control-zoom{ 
+    display: none;
 }
