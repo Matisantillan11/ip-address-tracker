@@ -4,5 +4,18 @@
     background-image: url('/src/assets/images/pattern-bg-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_container > h1 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.232px;
+    text-align: center;
+    padding: 24px 0px;
 }
