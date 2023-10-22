@@ -1,0 +1,5 @@
+.map_container{
+    width: 100vw;
+    height: 60vh;
+    @apply bg-primary-whiteBG;
+}

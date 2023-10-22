@@ -1,0 +1,8 @@
+.hero_container { 
+    width: 100vw;
+    height: 40vh;
+    background-image: url('/src/assets/images/pattern-bg-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
