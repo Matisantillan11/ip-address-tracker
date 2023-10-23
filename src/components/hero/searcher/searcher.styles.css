@@ -8,20 +8,22 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    margin: 24px auto;
+    margin: 0 auto;
+    @apply text-text-text2;
 }
 
 input {
-    @apply bg-primary-white text-text-text2;
+    @apply bg-primary-white;
     width: 80%;
     height: 58px;
     border-radius: 15px 0 0px 15px;
-    padding: 18px 24px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 0 24px;
 }
+
 
 input::placeholder {
     @apply text-text-text2;
@@ -39,4 +41,10 @@ input::placeholder {
     border-radius: 0 15px 15px 0;
     display: grid;
     place-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .searcher_wrapper {
+        margin: 24px auto;
+    }
 }
